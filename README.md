@@ -11,7 +11,7 @@ jdbc driver mysql server jre 8
 
 Git cơ bản:
 Tải code về máy:
-git clone https://github.com/cuongnn68/BookManagement-java05abc
+git clone https://github.com/duyninhhust/BTL-LTNC.git
 
 đồng bộ code giữa máy và git hub:
 git add . Thêm file vào để commit. Dấu chấm để thêm hết file, nếu ko thay bằng tên file
