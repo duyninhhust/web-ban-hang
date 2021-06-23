@@ -8,6 +8,7 @@
             <li class="${pageId == 2?"active": ""}"><a href="/web_ban_hang_war/admin/bill">Manager Bill</a></li>
 
         </ul>
+
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="glyphicon glyphicon-user"></span> ${acc.username}</a></li>
             <li><a href="/web_ban_hang_war/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>

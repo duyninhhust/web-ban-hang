@@ -1,3 +1,5 @@
+
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -23,6 +25,7 @@
             }
         </style>
     <body>
+
         <div class="container">
             <jsp:include page="AdminNavbar.jsp"></jsp:include>
             <div class="table-wrapper">

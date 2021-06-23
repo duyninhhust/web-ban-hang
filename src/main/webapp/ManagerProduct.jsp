@@ -25,23 +25,9 @@
             }
         </style>
     <body>
+
         <div class="container">
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="/web_ban_hang_war">PhoneShop</a>
-                    </div>
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="manager-product">Manager Product</a></li>
-<%--                        <li><a href="signup">Đăng kí</a></li>--%>
-                        <li><a href="#"></a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#"><span class="glyphicon glyphicon-user"></span> ${acc.username}</a></li>
-                        <li><a href="/web_ban_hang_war/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
-                    </ul>
-                </div>
-            </nav>
+            <jsp:include page="AdminNavbar.jsp"></jsp:include>
             <div class="table-wrapper">
                 <div class="table-title">
                     <div class="row">
